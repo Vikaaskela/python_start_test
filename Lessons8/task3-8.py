@@ -10,6 +10,11 @@
 #Послідовність користувач вводить з клавіатури у вигляді рядка. 
 #Наприклад, користувач вводить рядок 0,5,10,15,20,25 та відповіддю програми має бути число 30.
 def func(*args):
+    """ Write a program that outputs the next member of this sequence
+
+    Returns:
+        number: the next member of this sequence
+    """
     #if args[3] - args[2] == args[2] - args[1]:
     #    return args[-1] + (args[2] - args[1])
     #if args[3] / args[2] == args[2] / args[1]:

@@ -77,6 +77,3 @@ def func():
     return inner() + y
 print(func())
 '''
-def punk(l):
-    return zip(l[:-2], l[1:-1], l[2:])
-print(punk([1,5,9,13,17]))
