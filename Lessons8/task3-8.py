@@ -20,4 +20,4 @@ def func(*args):
     #if args[3] / args[2] == args[2] / args[1]:
     #    return args[-1] * (args[2] / args[1])
     return f'{args[-1] + (args[2] - args[1]) if args[3] - args[2] == args[2] - args[1] else args[-1] * (args[2] / args[1])}'
-print(func(1,2,4,8,16,32))
+print(func(1,3,9,27))
