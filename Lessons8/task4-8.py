@@ -12,5 +12,5 @@ def func():
             a = str(i * j) 
             if a == a[::-1]:
                 x.append(int(a))
-    print(max(x)) 
-func()
+    return max(x) 
+print(func())
