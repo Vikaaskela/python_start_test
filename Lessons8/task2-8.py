@@ -10,4 +10,4 @@ def func(text):
         number: will return the number of words in a text string
     """
     return f'{len(text.split())}'
-print(func('Напишіть функцію, яка поверне кількість слів у текстовому рядку.'))
+print(func('Hello people!'))
