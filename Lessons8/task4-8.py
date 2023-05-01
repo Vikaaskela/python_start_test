@@ -4,7 +4,7 @@
 #Знайдіть найбільший паліндром, одержаний множенням двох трицифрових чисел. 
 #Виведіть значення цього паліндрому і те, vyj;tyyzv яких чисел він є.
 def func():
-    """ Find the largest palindrome obtained by multiplying two three-digit numbers.
+    """ Find the largest palindrome obtained by multiplying two three-digit numbers
     """
     x=[]
     for i in range(100, 1000):
