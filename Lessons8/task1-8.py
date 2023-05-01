@@ -12,5 +12,5 @@ def func (seq, x):
         index: if not, then return the number "-1"
     """
     return f'{seq.index(x) if x in seq else "-1"}'
-print(func([1,2,3,4,5], 5))
+print(func([1,2,3,4,5], 7))
 
