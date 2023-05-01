@@ -9,10 +9,8 @@
 #print(func(x, y, 'Hello'))
 
 def myfunc(num1, num2, user_str):
-    '''
-    
-    
-    '''
+  
+
     
     return f'{user_str} {num1 + num2}'
 
